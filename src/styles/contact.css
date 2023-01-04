@@ -1,0 +1,32 @@
+.contact-action{
+    cursor: pointer;
+}
+
+.fadeIn{
+    visibility: visible;
+    animation: fadeIn 0.5s;
+}
+
+.fadeOut{
+    visibility: hidden;
+    animation: fadeOut 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
